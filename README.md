@@ -71,3 +71,8 @@ The success of this project will be evaluated based on:
 1. Clone the repository using:
    ```bash
    git clone https://github.com/subhadp/Fraud-Detection-in-Financial-Transactions.git
+2. Install the required dependencies using:
+  ```bash
+  pip install -r requirements.txt
+
+
