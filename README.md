@@ -3,6 +3,18 @@
 ## Problem Statement
 The objective of this project is to develop a machine learning model capable of detecting fraudulent financial transactions in real-time. This solution will help enhance the security of financial systems by identifying suspicious activity promptly.
 
+## Group Members
+1. GAURAV BALYAN
+2. TANYA BANSAL
+3. KHUSHBOO GUPTA
+4. RAKKIAPPAN P
+5. SUBHADEEP ROY
+
+## Teachers & TAs
+1. SHRISTY KAPOOR
+2. DHRUV MOHAN
+3. DESHMUKH SUDARSHAN S
+
 ## Introduction
 Financial fraud is a significant issue that results in substantial financial losses for organizations and individuals. By implementing real-time fraud detection, financial institutions can improve their security protocols and protect against potential fraudulent activities. This project involves building a machine learning model that efficiently identifies fraudulent transactions.
 
