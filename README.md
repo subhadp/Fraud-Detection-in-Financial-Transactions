@@ -58,4 +58,4 @@ The success of this project will be evaluated based on:
 ## How to Run the Project
 1. Clone the repository using:
    ```bash
-   git clone <repository-link>
+   git clone https://github.com/subhadp/Fraud-Detection-in-Financial-Transactions.git
