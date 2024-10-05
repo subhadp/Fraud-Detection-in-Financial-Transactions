@@ -2,7 +2,7 @@ import pandas as pd
 import joblib
 import os
 
-MODELS_DIR = os.path.join(os.path.dirname(__file__), '..', '..', 'models')
+MODELS_DIR = r"D:\fraud_detection_dataset\Fraud-Detection-in-Financial-Transactions\models"
 MODEL_FILENAMES = {
     "logistic_regression": os.path.join(MODELS_DIR, "logistic_regression_model.pkl"),
     "decision_tree": os.path.join(MODELS_DIR, "decision_tree_model.pkl"),
