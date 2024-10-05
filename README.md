@@ -74,5 +74,8 @@ The success of this project will be evaluated based on:
 2. Install the required dependencies using:
    ```bash
    pip install -r requirements.txt
+3. Run FASTAPI:
+   ```bash
+   uvicorn src.api.main:app --reload
 
 
