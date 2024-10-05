@@ -77,5 +77,9 @@ The success of this project will be evaluated based on:
 3. Run FASTAPI:
    ```bash
    uvicorn src.api.main:app --reload
+4. Test Suite for FastAPI Fraud Detection.:
+   ```bash
+   pytest test.py
+
 
 
