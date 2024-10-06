@@ -7,7 +7,6 @@ MODEL_FILENAMES = {
     "DS": r".\.\models\decision_tree_model.pkl"
 }
 
-# Load the models
 models = {name: joblib.load(path) for name, path in MODEL_FILENAMES.items()}
 
 
