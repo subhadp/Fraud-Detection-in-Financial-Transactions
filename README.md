@@ -24,49 +24,6 @@ The importance of fraud detection cannot be overstated, as it is a vital part of
 ## Data Source
 The data used in this project comes from a Financial Transactions Dataset. This dataset contains detailed transaction records, including labels that indicate whether a transaction is fraudulent or legitimate.
 
-## Weekwise Plan
-
-### Week 1-2:
-- **Data Import and Preprocessing**:
-  - Import the Financial Transactions Dataset.
-  - Handle missing values and encode categorical variables.
-  - Split the dataset into training and test sets.
-  - Perform Exploratory Data Analysis (EDA) to understand patterns and potential fraud indicators.
-
-### Week 3:
-- **Research Machine Learning Models**:
-  - Explore various machine learning algorithms, including Logistic Regression, Decision Trees, and Neural Networks.
-  - Assess the advantages and disadvantages of each model in the context of real-time fraud detection.
-
-### Week 4:
-- **Model Design**:
-  - Select the most relevant features for fraud detection.
-  - Define and implement the model architecture using frameworks such as Scikit-Learn or TensorFlow.
-
-### Week 5-6:
-- **Model Training and Validation**:
-  - Train the model on the training set.
-  - Perform hyperparameter tuning to optimize performance.
-  - Validate the model using precision, recall, F1 score, and AUC-ROC metrics.
-
-### Week 7:
-- **Model Testing and Refinement**:
-  - Test the model using simulated fraud scenarios.
-  - Evaluate real-time fraud detection performance, focusing on minimizing false positives.
-  - Refine the model based on evaluation results.
-
-### Week 8:
-- **Final Report and Presentation**:
-  - Prepare a comprehensive report detailing the methodology, model performance, and key insights.
-  - Create a project presentation summarizing the findings, challenges, and recommendations for future work.
-
-## Evaluation Criteria
-The success of this project will be evaluated based on:
-- The accuracy and effectiveness of the fraud detection techniques.
-- The performance of the machine learning model (precision, recall, F1 score, AUC-ROC).
-- The clarity and thoroughness of the final report and presentation.
-- The ability to balance detection accuracy with minimizing false positives, considering the importance of real-time fraud detection.
-
 ## How to Run the Project
 1. Clone the repository using:
    ```bash
@@ -78,4 +35,16 @@ The success of this project will be evaluated based on:
    ```bash
    uvicorn src.api.main:app --reload
 
+# FAST API Output
+
+## Logistic Regression Model
+<img width="640" alt="image" src="https://github.com/user-attachments/assets/ef0989a6-0ff1-4187-89bf-5c6e4f8f0f8a">
+
+## Decision Tree Model
+
+<img width="640" alt="image" src="https://github.com/user-attachments/assets/71dd7c74-94c8-48d2-86df-a5e9972f573c">
+
+## CatBoostClassifier Model
+
+<img width="640" alt="image" src="https://github.com/user-attachments/assets/010c3a4b-0610-4599-b3fa-d537681e2be4">
 
