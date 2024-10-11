@@ -1,3 +1,4 @@
+from datetime import datetime
 from fastapi import APIRouter, File, UploadFile, HTTPException
 from src.api.models import PredictionResponse
 from src.model.predict_model import make_prediction
@@ -14,4 +15,5 @@ async def predict(model_name: str, file: UploadFile = File(...)):
     contents = await file.read()
     df = pd.read_csv(BytesIO(contents))
     predictions = make_prediction(model_name, df)
-    return PredictionResponse(predictions=predictions)
+    current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    return PredictionResponse(predictions=predictions, timestamp=current_timestamp)
